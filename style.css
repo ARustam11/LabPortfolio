@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Exo', serif;
+    color: #1a2b42;
+    background: #F5F5F5;
+}
+
+
+/* Intro Section */
+
+.intro-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5rem;
+}
+
+.intro-title {
+    font-size: 70px;
+}
+
+.text-color-title {
+    color: rgb(77, 200, 159);
+}
+
+.know-more-button {
+    border: 1px solid rgb(77, 200, 159);
+    border-radius: 15px;
+    color: rgb(77, 200, 159);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.know-more-button:hover {
+    background-color: rgb(77, 200, 159);
+    color: #fff;
+}
+
+
+/* About Me Section */
+
+
+.about-me-section {
+    background: linear-gradient(45deg, rgb(160, 178, 172), rgb(28, 226, 160));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.about-me-title {
+    font-size: 60px;
+}
+
+.about-me-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-img {
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.about-me-text {
+    font-size: 20px;
+}
+
+.about-me-button {
+    margin-top: 30px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.about-me-button:hover {
+    background-color: #fff;
+    color: rgb(77, 200, 159);
+}
+
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resume-title {
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.resume-container {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-img {
+    width: 35%;
+}
+
+
+.projects-section {
+    background: linear-gradient(45deg, rgb(160, 178, 172), rgb(28, 226, 160));
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.projects-title {
+    margin-bottom: 3rem;
+    font-size: 60px;
+}
+
+.project-item {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    text-align: start;
+}
+
+.project-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 2rem;
+}
+
+.project-name {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.project-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.project-website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    color: rgb(77, 200, 159);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.project-img {
+    object-fit: contain;
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.footer-socials {
+    border-bottom: 2px solid black;
+}
+
+.socials-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+}
+
+.item-img {
+    width: 50px;
+    object-fit: contain;
+}
+
+
+
