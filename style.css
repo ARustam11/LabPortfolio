@@ -32,13 +32,13 @@ body {
 }
 
 .text-color-title {
-    color: rgb(77, 200, 159);
+    color: rgb(25, 199, 185);
 }
 
 .know-more-button {
-    border: 1px solid rgb(77, 200, 159);
+    border: 1px solid rgb(25, 199, 185);
     border-radius: 15px;
-    color: rgb(77, 200, 159);
+    color: rgb(25, 199, 185);
     text-decoration: none;
     font-size: 40px;
     font-weight: bold;
@@ -46,7 +46,7 @@ body {
 }
 
 .know-more-button:hover {
-    background-color: rgb(77, 200, 159);
+    background-color: rgb(25, 199, 185);
     color: #fff;
 }
 
@@ -55,11 +55,12 @@ body {
 
 
 .about-me-section {
-    background: linear-gradient(45deg, rgb(160, 178, 172), rgb(28, 226, 160));
+    background: linear-gradient(45deg, rgb(102, 162, 171), rgb(25, 199, 185));
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 5rem;
+    gap: 5rem;
 }
 
 .about-me-title {
@@ -131,7 +132,7 @@ body {
 
 
 .projects-section {
-    background: linear-gradient(45deg, rgb(160, 178, 172), rgb(28, 226, 160));
+    background: linear-gradient(45deg, rgb(102, 162, 171), rgb(25, 199, 185));
     display: flex;
     align-items: center;
     text-align: center;
@@ -197,7 +198,7 @@ body {
     width: 150px;
     background-color: #fff;
     border-radius: 15px;
-    color: rgb(77, 200, 159);
+    color: rgb(25, 199, 185);
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
